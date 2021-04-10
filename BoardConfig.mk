@@ -16,13 +16,13 @@
 
 -include device/bq/mt8163-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/bq/aquaris_m8
+DEVICE_PATH := device/bq/zeno
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Aquaris_M8,karin,aquaris_m8
+TARGET_OTA_ASSERT_DEVICE := Aquaris_M8,karin,aquaris_m8,zeno
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_aquaris_m8_defconfig
+TARGET_KERNEL_CONFIG := lineage_zeno_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
@@ -51,4 +51,4 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # inherit from the proprietary version
--include vendor/bq/aquaris_m8/BoardConfigVendor.mk
+-include vendor/bq/zeno/BoardConfigVendor.mk

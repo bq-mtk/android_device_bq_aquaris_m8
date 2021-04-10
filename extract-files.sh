@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=aquaris_m8
+export DEVICE=zeno
 export DEVICE_COMMON=mt8163-common
 export VENDOR=bq
 

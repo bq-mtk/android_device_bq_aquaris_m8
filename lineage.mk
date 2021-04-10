@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from aquaris_m8 device
-$(call inherit-product, device/bq/aquaris_m8/device.mk)
+# Inherit from zeno device
+$(call inherit-product, device/bq/zeno/device.mk)
 
 # Inherit from common device
 $(call inherit-product, device/bq/mt8163-common/mt8163.mk)
@@ -32,8 +32,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := bq
-PRODUCT_DEVICE := aquaris_m8
-PRODUCT_NAME := lineage_aquaris_m8
+PRODUCT_DEVICE := zeno
+PRODUCT_NAME := lineage_zeno
 PRODUCT_BRAND := bq
 PRODUCT_MODEL := Aquaris M8
 PRODUCT_MANUFACTURER := bq
@@ -42,7 +42,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-bq
 
 # Set product device & name
 PRODUCT_BUILD_PROP_OVERRIDES += \
-   PRODUCT_NAME=aquaris_m8 \
+   PRODUCT_NAME=zeno \
    PRIVATE_BUILD_DESC="full_bq_aquaris_m8-user 6.0 MRA58K 1537280832 release-keys"
 
 BUILD_FINGERPRINT=bq/Aquaris_M8/Aquaris_M8:6.0/MRA58K/1537280831:user/release-keys

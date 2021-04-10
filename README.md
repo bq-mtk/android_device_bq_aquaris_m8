@@ -1,7 +1,7 @@
-Device Tree for BQ Aquaris M8 (aquaris_m8, karin)
+Device Tree for BQ Aquaris M8 (zeno)
 ==================================================
 
-The BQ Aquaris M8 (codenamed _"aquaris_m8"_ or _"karin"_) is a mid-range table from BQ.
+The BQ Aquaris M8 (codenamed _"zeno"_) is a mid-range table from BQ.
 It was released in November 2016.
 
 

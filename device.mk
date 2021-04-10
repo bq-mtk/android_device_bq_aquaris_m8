@@ -15,7 +15,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/bq/aquaris_m8/aquaris_m8-vendor.mk)
+$(call inherit-product-if-exists, vendor/bq/zeno/zeno-vendor.mk)
 
 # Display
 TARGET_SCREEN_HEIGHT := 1280
