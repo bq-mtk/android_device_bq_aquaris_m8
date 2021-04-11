@@ -1,3 +1,7 @@
+# Offline Charging
+bin/kpoc_charger
+lib/libshowlogo.so
+
 # TEE
 lib/libtz_uree.so
 lib64/libtz_uree.so
