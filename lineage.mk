@@ -43,6 +43,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-bq
 # Set product device & name
 PRODUCT_BUILD_PROP_OVERRIDES += \
    PRODUCT_NAME=zeno \
-   PRIVATE_BUILD_DESC="full_bq_aquaris_m8-user 6.0 MRA58K 1537280832 release-keys"
+   PRIVATE_BUILD_DESC="full_bq_aquaris_m8-user 8.1.0 O11019 1553500793 release-keys"
 
-BUILD_FINGERPRINT=bq/Aquaris_M8/Aquaris_M8:6.0/MRA58K/1537280831:user/release-keys
+BUILD_FINGERPRINT=bq/Aquaris_M8/Aquaris_M8:8.1.0/O11019/1553500791:user/release-keys
