@@ -42,8 +42,8 @@ PRODUCT_MANUFACTURER := bq
 PRODUCT_GMS_CLIENTID_BASE := android-bq
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRIVATE_BUILD_DESC="full_bq_aquaris_m8-user 6.0 MRA58K 1537280832 release-keys" \
+        PRIVATE_BUILD_DESC="ryu-user 8.0.0 OPR1.170623.032 4397478 release-keys" \
         PRODUCT_NAME="Aquaris_M8" \
         TARGET_DEVICE="Aquaris_M8"
 
-BUILD_FINGERPRINT := bq/Aquaris_M8/Aquaris_M8:6.0/MRA58K/1537280831:user/release-keys
+BUILD_FINGERPRINT := google/ryu/dragon:8.0.0/OPR1.170623.032/4397478:user/release-keys
