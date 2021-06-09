@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=zeno
+export DEVICE=karin
 export DEVICE_COMMON=mt8163-common
 export VENDOR=bq
 
